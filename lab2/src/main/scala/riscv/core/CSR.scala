@@ -73,6 +73,7 @@ class CSR extends Module {
   //lab2(CLINTCSR)
   //what data should be passed from csr to clint (Note: what should clint see is the next state of the CPU)
   /*
+  
   io.clint_access_bundle.mstatus :=
   io.clint_access_bundle.mtvec :=
   io.clint_access_bundle.mcause :=

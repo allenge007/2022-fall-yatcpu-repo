@@ -79,6 +79,7 @@ class CLINT extends Module {
   )
   //lab2(CLINTCSR)
   /*
+  
   val interrupt_enable =
 
   when(io.interrupt_flag =/= InterruptStatus.None && interrupt_enable) {
